@@ -1,0 +1,90 @@
+/*body{
+	background-image: url(../images/bg.jpg);
+	background-size: 100% ;
+	background-repeat: no-repeat;
+	height: 85%;
+}
+#inputContainer{
+	background: #E6E6FA;
+	width: 40%;
+	margin-top: 70px;
+	margin-left: 400px;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 10px;
+}
+#inputContainer p{
+	margin-left: 100px;
+    width: 300px;
+	margin-bottom: 30px;
+    box-sizing: inherit;
+}
+#inputContainer img{
+	width: 100%;
+	padding-top: 20px;
+	margin-bottom: 40px;
+	background: transparent;
+}
+#loginEmail,
+#loginPassword{
+	padding: 10px;
+    margin-top: 20px;
+    width: 390px;
+}
+label{
+	font-size: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+button {
+	background-color: white;
+    border: 1px solid #0c0c0c;
+    color: #800808;
+    margin-left: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 390px;
+}
+button:hover{
+	cursor: pointer;
+}
+span{
+	margin-left: 350px;
+}
+.error {
+	color:red;}*/
+
+
+
+
+
+body {
+	background-image: url(../images/bg.jpg);
+	background-size: 100% ;
+	background-repeat: no-repeat;
+	height: 85%;
+}
+#login .container #login-row #login-column #login-box {
+	background: #E6E6FA;
+	width: 100%;
+	margin-top: 70px;
+	margin-left: 40px;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 10px;
+
+}
+#login .container #login-row #login-column #login-box #login-form {
+padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+margin-top: -85px;
+}    
+.error{
+	margin-left: 00px;
+	color:red;
+}
+span{
+	margin-left: 300px;
+}

@@ -1,0 +1,22 @@
+body{
+	background: 100%;
+    margin: 0
+}
+#top {
+	background-color: #800000;
+    height: 60px;
+}
+#bottom {
+	background-color: #800000;
+    height: 60px;
+}
+h1 {
+	font-size: 45px;
+    text-decoration: underline;
+    font-family: sans-serif;
+    color: #ca2a1a;
+}
+h3 {
+	word-spacing: 5px;
+    line-height: 36px;
+}

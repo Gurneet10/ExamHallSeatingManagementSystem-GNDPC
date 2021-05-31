@@ -1,0 +1,87 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/*/ Slideshow container /*/
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  height: 100%;
+  left: 0;
+  background-color: #d3d3d4;
+}
+
+.left h1 {
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+  font-style: italic;
+  font-family: serif;
+}
+/* Control the right side */
+.right {
+  right: 0;
+  /*background-color: red;*/
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.splitright img {
+  margin-left: 50%;
+	width: 683px;
+	height: 657px;
+  animation-duration: 2s;
+}
+button {
+  font-weight: bold;
+	background-color: #ab93992e;
+  border: 3px solid #0c0c0c;
+  border-radius: 350px;
+  color: #800808;
+  display: block;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin: 20px auto;
+  height: 40px;
+  width: 20%;
+}
+button:hover {
+	cursor: pointer;
+}
+.login span {
+  font-weight: bold;
+  font-size: 19px;
+  cursor: pointer;
+}
+.login img{
+  border-image: 20px;
+  size: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
